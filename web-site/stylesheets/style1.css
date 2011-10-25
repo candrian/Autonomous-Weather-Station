@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, h1, h2, h3, h4, ul, li, table {
+	margin: 0;
+	padding: 0;
+	font: 11px;
+}
+
+body{
+	/*background-color: #a19f93;*/
+	text-align: center;
+	font: 11px verdana, arial, sans-serif;
+	color: #ab965d;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	
+}
+
+#wrapper {
+	/*background-image: url(../images/osfp.png);
+	background-position: center top;
+	background-repeat: norepeat;*/
+	border:1px solid;
+	background-color:#FFF;
+	position: relative;
+	text-align: center;
+	margin: auto;
+	width:940px;
+	font: 12px verdana, arial, sans-serif;
+	height:auto;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+
+}
+
+#header{
+	position: relative;
+	left: 70px;
+	width: 800px;
+	height: 114px;
+	background: url(../images/logo.png) no-repeat;
+}
+
+#nav {
+	position:relative;
+	top:20px;
+	/*position: absolute;*/
+	background: url(../images/nav.png) no-repeat;
+	/*top: 129px;*/
+	left: 35px;
+	height: 30px;
+	width: 870px;
+	text-align: center;
+}
+
+#nav a { 
+	position: relative;
+	top: 5px;
+	/*left:60px;*/
+	border-left: 1px solid #bbbbbb;
+	border-left: 1px solid #bbbbbb;
+	margin-left: 2px;
+	font: 14px verdana, arial, sans-serif;
+	font-style: normal;
+	text-decoration: none;
+	letter-spacing:3px;
+
+}
+
+#Content {
+	position: relative;
+	top:70px;
+	/*margin-top: 20px;
+	margin-left: 0px;*/
+	text-align: center;
+}
+
+#footer {
+	background: url(../images/nav.png) repeat-y;
+	position:relative;
+	margin-top:100px;
+	left: 134px;
+	width:672px;
+	height:42px;
+	padding-top: 5px;
+	/*bottom:5px;*/
+}
+
+#footer_text {
+	text-align: center;
+	padding: 1px 0px 30px 00px;
+	font-size: 9px;
+	color: #715F36;
+	font-weight: bold;
+}
